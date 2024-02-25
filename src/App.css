@@ -1,0 +1,27 @@
+.input-field {
+  border-radius: 5px;
+}
+
+.button {
+  border-radius: 6px;
+  background-color: #01f9c6;
+}
+
+.components {
+  display: flex;
+  flex-direction: row;
+  gap: 75px;
+  margin-top: 5em;
+  margin-left: 38em;
+  position: relative;
+}
+
+.grid{
+  display: grid; 
+  grid-template-columns: repeat(6, 1fr);
+  gap:10px ;
+  width:75% ; 
+  top:2em; 
+  left :15%;
+  position: relative
+}
